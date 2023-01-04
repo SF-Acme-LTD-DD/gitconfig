@@ -1,0 +1,8 @@
+#~/.gitconfig
+[alias]
+        history = log --graph
+        shhist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        mergetheir = merge -X theirs
+        pushupstream = push -u origin
+        mergeours = merge -X ours
+        
