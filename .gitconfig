@@ -7,3 +7,5 @@
         pushupstream = push -u origin  # push remote upstream
         mergeours = merge -X ours   # merge with replacing your code, do not use to main
         pushrem = push origin -d  # remove remote branch
+[fetch]
+        prune = true
