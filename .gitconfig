@@ -2,7 +2,7 @@
 # do not use merge to Github remote updates of main, use pull requests.
 [alias]
         history = log --graph   # graphical history
-        shhist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short # short history format
+        shhist = log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short # short history format
         mergetheir = merge -X theirs  # merge with replacing their code, do not use to main
         pushupstream = push -u origin  # push remote upstream
         mergeours = merge -X ours   # merge with replacing your code, do not use to main
